@@ -196,7 +196,7 @@ def multiply_primes(m,n):
     ###############################################################################
     b = 1
     for k in range(n-(m-1)):
-        if is_prime(m+k) is True:
+        if is_prime(m+k) is  True:
             b = (m+k)*b
     if b == 1:
         return '0'
